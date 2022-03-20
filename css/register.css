@@ -85,6 +85,7 @@ input:focus{
     color: #fff;
     font-size: 15px;
     cursor: pointer;
+    margin-top: 20px;
     background: linear-gradient(180deg, rgba(6, 145, 245, 0.74) 0%, #0267AF 100%);
 }
 
