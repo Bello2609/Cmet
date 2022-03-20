@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Room</title>
+    <link rel="stylesheet" href="/css/addroom.css">
+</head>
+<body>
+    <div class="section_header-color">
+        <header>
+            <h1>
+                CMet
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">My account</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="nav-left">
+                <p>Log out</p>
+                <button type=""submit>Add rooms</button>
+            </div>
+        </header>
+    </div>
+    <div class="room_details">
+        <h3>Add Room Details/Edit Room Details</h3>
+        <!-- the place where i added / is for when add and when editing -->
+        <p>When adding room details here, fill in the required fields completely and follow the room adding rules./</p>
+        <hr />
+        <form method="post">
+            <div class="form_container">
+                <div class="form_container-element">
+                    <label for="apartment">Apartment Name</label>
+                    <input type="text" name="apartment" />
+                </div>
+            </div>
+            <div class="form_container">
+                <div class="form_container-element">
+                    <label for="location">Location</label>
+                    <input type="text" name="location" />
+                </div>
+            </div>
+            <div class="form_container">
+                <div class="form_container-element">
+                    <label for="available">Available Rooms</label>
+                    <input type="text" name="available" />
+                </div>
+               <div class="form_container-element">
+                    <label for="confirm password">Rent fee(per month in $)</label>
+                    <input type="number" name="rent fee" />
+               </div>
+            </div>
+          
+            <div class="form_container">
+                <p>Description </p><br />
+                <textarea name="description"  cols="50" rows="5"></textarea>
+            </div>
+              <div class="form_container">
+                <input type="file" name="upload"  />
+            </div>
+            <div class="form_container-button">
+                <button type="submit">Login</button>
+                <button type="submit">Cancel</button>
+                <button type="submit">Delete</button>
+            </div>
+            
+        </form>
+    </div>
+</body>
+</html>
