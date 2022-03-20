@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Now</title>
+    <link rel="stylesheet" href="/css/register.css">
+</head>
+<body>
+    <div class="register">
+        <div class="register_bg">
+            <h2>CMet.</h2>
+        </div>
+        <div class="form">
+            <h3>Register</h3>
+            <p>We just need a few quick details to continue</p>
+            <div class="register_form">
+                <form action="action.php" method="post">
+                    <div class="form_container">
+                        <label for="username">Username</label><br />
+                        <input type="text" name="username" id="" autocomplete="off"/>
+                    </div>
+                    <div class="form_container">
+                        <div class="form_container-element">
+                            <label for="firstname">First Name</label>
+                            <input type="text" name="firstname" />
+                        </div>
+                        <div class="form_container-element">
+                            <label for="lastname">Last Name</label>
+                            <input type="text" name="firstname" />
+                        </div>
+                    </div>
+                    <div class="form_container">
+                        <div class="form_container-element">
+                            <label for="password">Password</label>
+                            <input type="password" name="password" />
+                        </div>
+                       <div class="form_container-element">
+                            <label for="confirm password">Confirm Password</label>
+                            <input type="password" name="conpassword" />
+                       </div>
+                    </div>
+                    <div class="form_container">
+                        <div class="form_container-element">
+                            <label for="email">Email Address</label>
+                            <input type="email" name="email" />
+                        </div>
+                        <div class="form_container-element">
+                            <label for="gender">Gender</label>
+                            <select name="gender" id="">
+                                <option value="male">male</option>
+                                <option value="female">female</option>
+                            </select>
+                        </div>
+                        
+                    </div>
+                    <div class="form_container">
+                        <div class="form_container-element">
+                            <label for="address">Residential Address</label>
+                            <input type="text" name="address" />
+                        </div>
+                        <div class="form_container-element">
+                            <label for="alternative">Alternative</label>
+                            <input type="text" name="alternative" />
+                        </div>
+                    </div>
+                    <div class="form_container">
+                        <div class="form_container-element">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" name="telephone number" />
+                        </div>
+                        <div class="form_container-element">
+                            <label for="postal">Postal code</label>
+                            <input type="number" name="postal code" />
+                        </div>
+                    </div>
+                    <div class="form_container-textarea">
+                        <p>Tell us about yourself</p>
+                        <textarea name="description" cols="50" rows="5">
+                           
+                        </textarea>
+                    </div>
+                    <p>By clicking continue, you agree to CMet.'s <b>User Agreement</b>,</p>
+                    <p>and <b>Privacy policy</b></p>
+                    <button type="submit">Get Started</button>
+                    <h5>Already a member? <a href="/login">Log in</a></h5>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
