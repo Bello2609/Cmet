@@ -77,10 +77,14 @@ body{
 }
 .room-header_info-icon span i:nth-child(1){
     color: #000;
-
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 20px;
 }
 .room-header_info-icon span i:nth-child(2){
     color: red;
+    cursor: pointer;
+    font-size: 20px;
 }
 .room-container{
     display: flex;
