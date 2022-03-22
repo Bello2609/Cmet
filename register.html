@@ -16,39 +16,39 @@
             <h3>Register</h3>
             <p>We just need a few quick details to continue</p>
             <div class="register_form">
-                <form action="action.php" method="post">
+                <form id="form">
                     <div class="form_container">
                         <label for="username">Username</label><br />
-                        <input type="text" name="username" id="" autocomplete="off"/>
+                        <input type="text" name="username" id="username" autocomplete="off" required/>
                     </div>
                     <div class="form_container">
                         <div class="form_container-element">
                             <label for="firstname">First Name</label>
-                            <input type="text" name="firstname" />
+                            <input type="text" name="firstname" id="firstname" required />
                         </div>
                         <div class="form_container-element">
                             <label for="lastname">Last Name</label>
-                            <input type="text" name="firstname" />
+                            <input type="text" name="lastname" id="lastname" required/>
                         </div>
                     </div>
                     <div class="form_container">
                         <div class="form_container-element">
                             <label for="password">Password</label>
-                            <input type="password" name="password" />
+                            <input type="password" max="6" min="3" id="password" name="password"  required/>
                         </div>
                        <div class="form_container-element">
                             <label for="confirm password">Confirm Password</label>
-                            <input type="password" name="conpassword" />
+                            <input type="password" id="conpassword"  max="6" min="3" name="conpassword" required/>
                        </div>
                     </div>
                     <div class="form_container">
                         <div class="form_container-element">
                             <label for="email">Email Address</label>
-                            <input type="email" name="email" />
+                            <input type="email" id="email" name="email" required />
                         </div>
                         <div class="form_container-element">
                             <label for="gender">Gender</label>
-                            <select name="gender" id="">
+                            <select name="gender" id="gender" required >
                                 <option value="male">male</option>
                                 <option value="female">female</option>
                             </select>
@@ -58,26 +58,26 @@
                     <div class="form_container">
                         <div class="form_container-element">
                             <label for="address">Residential Address</label>
-                            <input type="text" name="address" />
+                            <input type="text" id="address" name="address" required />
                         </div>
                         <div class="form_container-element">
                             <label for="alternative">Alternative</label>
-                            <input type="text" name="alternative" />
+                            <input type="text" id="alternative" name="alternative" required />
                         </div>
                     </div>
                     <div class="form_container">
                         <div class="form_container-element">
                             <label for="phone">Phone Number</label>
-                            <input type="tel" name="telephone number" />
+                            <input type="tel" id="telephone" name="telephone number" required />
                         </div>
                         <div class="form_container-element">
                             <label for="postal">Postal code</label>
-                            <input type="number" name="postal code" />
+                            <input type="number" id="postal" name="postal code" required />
                         </div>
                     </div>
                     <div class="form_container-textarea">
                         <p>Tell us about yourself</p>
-                        <textarea name="description" cols="50" rows="5">
+                        <textarea name="description" id="textarea" cols="50"  required rows="5">
                            
                         </textarea>
                     </div>
@@ -89,6 +89,6 @@
             </div>
         </div>
     </div>
-    
-</body>
+    <script src="/js/main.js"></script>
+</body>  
 </html>

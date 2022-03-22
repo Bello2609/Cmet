@@ -65,6 +65,10 @@ body{
     margin-right: 10px; 
     color: #EEEEEE;
 }
+.nav-left p a{
+    text-decoration: none;
+    color: #4F4F4F;
+}
 .nav-left button{
     width: 100px;
     height: 40px;
@@ -136,14 +140,16 @@ body{
     margin-top: 5px;
 }
 .explore-room_card-element button{
-    background: #0691F5;
     width: 100px;
     height: 40px;
     border: none;
     outline: none;
     border-radius: 5px;
+    cursor: pointer;
+    background: #0691F5;
     color: #fff;
 }
+
 .explore-room_card-element .info p{
     color: #0691F5;
 }
@@ -157,4 +163,7 @@ body{
     color: #4F4F4F;
     font-weight: bold;
     font-size: 20px;
+}
+.explore-room_card-element h5 .fa-solid{
+    margin-right: 10px;
 }

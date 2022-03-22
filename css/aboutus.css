@@ -53,7 +53,11 @@ body{
 }
 .nav-left p{
     margin-right: 10px; 
-    color: #4F4F4F;;
+    color: #4F4F4F;
+}
+.nav-left p a{
+    text-decoration: none;
+    color: #4F4F4F;
 }
 .nav-left button{
     width: 100px;
