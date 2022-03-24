@@ -26,16 +26,16 @@ body{
     color:  #0267AF;
     font-size: 30px;
 }
-.section_header-color header nav{
+.section_header-color header .nav{
     display: flex;
-    
+    align-items: center;
 }
-.section_header-color header nav ul{
+.section_header-color header .nav ul{
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    
 }
-.section_header-color header nav ul li{
+.section_header-color header .nav ul li{
     list-style: none;
     margin-right: 50px;
     color: #EEEEEE;
@@ -43,7 +43,7 @@ body{
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.section_header-color header nav ul li a{
+.section_header-color header .nav ul li a{
     text-decoration: none;
     color: #4F4F4F;
 }
@@ -150,5 +150,92 @@ body{
     color: #4F4F4F;
     margin-bottom: 20px;
     font-size: 20px;
+}
+.burger_container{
+    display: none;
+}
+.burger{
+    display: none;
+    background: #0267AF;
+    width: 50px;
+    height: 10px;
+    margin-bottom: 5px;
+    border-radius: 50px; 
+    margin-left: 10px;
+}
+@media screen and (max-width: 768px) {
+    .burger_container{
+        display: block;
+        position: absolute;
+        right: 20px;
+    }
+    .burger{
+        display: block;
+    }
+    .section_header-color header{
+        position: relative;
+        margin: 0px;
+    }
+    .section_header-color header .nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 5vh;
+        right: -30px;
+       background-color: #fff;
+        height: 300px;
+        width: auto;
+        transform: translateX(100%);
+        transition: all 0.3s ease-in-out;
+        border: 2px solid red;
+    }
+    .section_header-color header .nav ul{
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+    }
+    .nav-left{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-left p {
+        padding-bottom: 5px;
+    }
+    .nav-left p a{
+        color: #0267AF;
+        
+        font-size: 20px;
+    }
+    .section_header-color header .nav ul li {
+       color: #0267AF;
+        padding-bottom: 20px;
+    }
+    .section_header-color header .nav ul li a{
+        color: #0267AF;
+         font-weight: bold;
+     }
+     .room-header_info{
+         display: flex;
+         flex-direction: column;
+     }
+     .room-container{
+        display: flex;
+        flex-direction: column;
+    }
+     .room-details{
+         display: flex;
+         flex-direction: column;
+     }
+     .room_details-element{
+         display: flex;
+         flex-direction: row;
+         justify-content: baseline;
+     }
+}
+.nav_active{
+    transform: translateX(100%);
+    opacity: 1;
 }
 
