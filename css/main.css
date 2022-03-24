@@ -1,0 +1,168 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html,
+body{
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+}
+section{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.main-section_bg{
+    /* padding-top: 50px;
+    position: relative; */
+    background: url("../assets/img/cmetbg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+/* .main-section_color{
+    position: absolute;
+    top: 0px;
+    bottom: 0px; 
+    background: #0267AF;
+    opacity: 0.6;
+    width: 100%;
+    height: 100%;
+} */
+.main-section_intro{
+    padding: 35px;
+
+}
+.main-section_intro h4{
+    color: #fff;
+    font-size: 50px;
+    font-family: Aller;
+    
+}
+.main-section_intro p{
+    color: #fff;
+    font-size: 20px;
+    font-family: Friz Quadrata Std;
+    margin: 10px 0px 0px 0px;
+}
+.main-section_intro .get-started{
+    display: inline-block;
+    background-color: #fff;
+    color: #0267AF;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 30px;
+    transition: width 5ms ease-in-out;
+}
+.main-section_intro .get-started:hover{
+     border-radius: 10px;
+     padding: 15px 25px;
+    font-size: 20px;
+    font-weight: 500;
+ } 
+.main-section_nav{
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Friz Quadrata Std';
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    color: #fff;
+    margin-bottom: 20px;
+   
+}
+.main-section_nav a{
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+.main-section_nav a:hover{
+    color: #fff;
+    font-weight: bolder;
+    text-decoration: none;
+    border-bottom: 2px solid #ffffff;
+}
+.about{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+.about-room{
+    display: flex;
+    margin-right: 100px;
+}
+.about-room_info{
+    margin-right: 10px;
+}
+.about-room_info h5{
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+.about-room_info p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info h2{
+    font-size: 30px;
+    color: #000;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    font-family: tahoma;
+}
+.services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+.services_list{
+    display: flex;
+    width: 50%;
+    margin-bottom: 20px;
+}
+.services_list h3{
+    font-size: 30px;
+    color: #000;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    font-family: tahoma;
+}
+.service_list-element{
+    display: flex;
+    flex-direction: column;
+}
+.service_list-element p{
+    color: gray;
+    line-height: 20px;
+    width: 100%;
+}
+
+@media screen and (max-width:768px) {
+    .about{
+        display: flex;
+        flex-direction: column;
+    }
+    .about-room_info p{
+        margin: 0px;
+        color: #fff;
+    }
+}
+

@@ -1,0 +1,119 @@
+<?php 
+    $base_url = "http://localhost/cmet/";
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CMET Property Management</title>
+        <link rel="stylesheet" href="<?php echo $base_url ?>css/main.css">
+    </head>
+    <body>
+        <section>
+            <div class="main-section_bg"> 
+                <div class="main-section_color">
+                    <div class="main-section_intro">
+                        <div class="main-section_nav">
+                            <p>Already a member? <a href="<?php echo $base_url ?>user/auth/login.php">Login</a></p> 
+                        </div>
+                        <h4>Welcome</h4>
+                        <h4>to CMet.</h4>
+                        <p>Advertise your available rooms with ease.
+                        <p>Get potential tenants.</p>
+                        <a class="get-started" href="<?php echo $base_url ?>user/auth/register.php">Get Started</a>
+                        <div class="about">
+                            <div class="about-room">
+                                <div class="about-room_info">
+                                    <h5>01.</h5>
+                                    <p>The Best Way to Advertise</p>
+                                    <p>your Available Rooms.</p>
+                                </div>
+                                <div>
+                                    <img src="<?php echo $base_url ?>assets/img/splash1.png" alt="" />
+                                </div>
+                            </div>
+                            <div class="about-room">
+                                <div class="about-room_info">
+                                    <h5>02.</h5>
+                                    <p>Getting Potential tenants </p>
+                                    <p>for your Property.</p>
+                                </div>
+                                <div>
+                                    <img src="<?php echo $base_url ?>assets/img/splash2.png" alt="" />
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="info">
+            <h2>
+                HOW IT WORKS
+            </h2>
+            <div class="services">
+                    <div class="services_list">
+                        <h3>1.</h3>
+                        <div class="service_list-element">
+                            <h3>Warranty</h3>
+                            <p>
+                                The properties on the Roomless platform are all verified by our team.
+                                This means that we guarantee the reality, the authenticity of the photos
+                                and the accuracy of the information in the listings so that you can book online 
+                                in complete safety.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="services_list">
+                        <h3>2.</h3>
+                        <div class="service_list-element">
+                            <h3>Search</h3>
+                            <p>
+                                Find the perfect house, flat or room to rent from our listings.
+                                The pictures and detailed descriptions will help you find the most 
+                                interesting properties directly online. If you need more information, 
+                                click on request information and contact our
+                            </p>
+                        </div>
+                    </div>
+                    <div class="services_list">
+                        <h3>3.</h3>
+                        <div class="service_list-element">
+                            <h3>Book</h3>
+                            <p>Send a rental request to the property by entering the date of entry, 
+                                the duration of the booking and a personal introduction.
+                                You will not be charged at this stage. You only have to wait for the owner's 
+                                reply. The property is NOT yet reserved for you.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="services_list">
+                        <h3>4.</h3>
+                        <div class="service_list-element">
+                            <h3>Confirm</h3>
+                            <p>The owner has accepted your request. Pay the amount indicated, including the 
+                                first month's rent and Roomless commission, and confirm your reservation.
+                                The property will be reserved for you ONLY upon receipt of payment.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="services_list">
+                        <h3>5.</h3>
+                        <div class="service_list-element">
+                            <h3>Post confirmation</h3>
+                            <p>SWe will put you in touch directly with the property for the steps following 
+                            the booking.We will transfer the amount to the owner 24 hours after your check
+                            in, unless you contact us with any problem.
+                            </p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
