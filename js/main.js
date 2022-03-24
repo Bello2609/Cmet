@@ -17,10 +17,19 @@ const navSlide = ()=>{
     const navLink = document.querySelector(".nav");
     
     const burger_container = document.querySelector(".burger_container");
+    let toggle_status = 0;
 
     burger_container.addEventListener("click", ()=>{
-       
-        navLink.classList.toggle("nav_active");
+
+       if(toggle_status == 0){
+            navLink.style.display = "block";
+            toggle_status = 1;
+       }
+       else if(toggle_status == 1){
+           navLink.style.display = "none";
+           toggle_status = 0;
+       }
+        
     });
     console.log("clicked");
 }
