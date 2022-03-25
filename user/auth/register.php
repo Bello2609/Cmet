@@ -1,6 +1,6 @@
 <?php 
     include '../../lib/dfunc.php';
-    $base_url = 'http://localhost/cmet/';
+    $base_url = 'http://localhost/cmetrentalrooms/';
     $message = '';
     if(isset($_POST['register'])){
 
@@ -59,7 +59,7 @@
     <body>
         <div class="register">
             <div class="register_bg">
-                <h2>CMet.</h2>
+                <h2>CMetRentalRooms.</h2>
             </div>
             <div class="form">
                 <h3>Register</h3>
@@ -147,7 +147,7 @@
                             <p>Tell us about yourself</p>
                             <textarea name="description" cols="50" rows="5" required></textarea>
                         </div>
-                        <p>By clicking continue, you agree to CMet.'s <b>User Agreement</b>,</p>
+                        <p>By clicking continue, you agree to CMetRentalRooms.'s <b>User Agreement</b>,</p>
                         <p>and <b>Privacy policy</b></p>
                         <button type="submit" name="register">Get Started</button>
                         <h5>Already a member? <a href="./login.php">Log in</a></h5>

@@ -1,7 +1,7 @@
 <?php 
     session_start();
     
-    $base_url = "http://localhost/cmet/";
+    $base_url = "http://localhost/cmetrentalrooms/";
 
     if(!isset($_SESSION['ssUser'])){
         //rediract to login page

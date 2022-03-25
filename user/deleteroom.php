@@ -1,7 +1,7 @@
 <?php 
     session_start();
     include '../lib/dfunc.php';
-    $base_url = 'http://localhost/cmet/';
+    $base_url = 'http://localhost/cmetrentalrooms/';
     // Redirect if user is not logged in
     if(!isset($_SESSION['ssUser'])){
         //rediract to login page

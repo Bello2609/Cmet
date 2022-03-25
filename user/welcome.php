@@ -1,5 +1,5 @@
 <?php 
-    $base_url = "http://localhost/cmet/";
+    $base_url = "http://localhost/cmetrentalrooms/";
 ?>
 
 <!DOCTYPE html>
@@ -8,7 +8,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>CMET Property Management</title>
+        <title>CMetRentalRooms Property Management</title>
         <link rel="stylesheet" href="<?php echo $base_url ?>css/main.css">
     </head>
     <body>
@@ -20,7 +20,7 @@
                             <p>Already a member? <a href="<?php echo $base_url ?>user/auth/login.php">Login</a></p> 
                         </div>
                         <h4>Welcome</h4>
-                        <h4>to CMet.</h4>
+                        <h4>to CMetRentalRooms.</h4>
                         <p>Advertise your available rooms with ease.
                         <p>Get potential tenants.</p>
                         <a class="get-started" href="<?php echo $base_url ?>user/auth/register.php">Get Started</a>

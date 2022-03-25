@@ -33,7 +33,7 @@
     <div class="section_header-color">
         <header>
             <h1>
-                CMet
+                CMetRentalRooms
             </h1>
 
             <div class="burger_container">

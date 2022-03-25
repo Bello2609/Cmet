@@ -5,7 +5,7 @@
     <div class="section_header-color">
         <header>
             <h1>
-                CMet
+                CMetRentalRooms
             </h1>
 
             <div class="burger_container">
@@ -29,7 +29,7 @@
         </header>
     </div>
     <div class="about-body">
-        <h3>About CMet</h3>
+        <h3>About CMetRentalRooms</h3>
         <hr />
         <div class="about-cmet">
             <p>

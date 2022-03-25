@@ -12,7 +12,7 @@
         $dbhost = 'localhost';
 		$dbuser = 'root';
 		$dbpass = '';
-		$dbname = 'cmetrental';
+		$dbname = 'cmetrentalrooms';
 	
 		$conn = mysqli_connect($dbhost,$dbuser,$dbpass);
 

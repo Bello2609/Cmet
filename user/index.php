@@ -1,5 +1,5 @@
 <?php 
-    $page_title = 'Cmet. Home';
+    $page_title = 'CMetRentalRooms. Home';
     include '../lib/dfunc.php';
     include '../includes/header.php';
 
@@ -23,7 +23,7 @@
     <div class="section_header-color">
         <header>
             <h1>
-                CMet
+                CMetRentalRooms
             </h1>
             
             <div class="burger_container">

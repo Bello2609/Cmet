@@ -1,7 +1,7 @@
 <?php 
     session_start();
     include '../../lib/dfunc.php';
-    $base_url = 'http://localhost/cmet/';
+    $base_url = 'http://localhost/cmetrentalrooms/';
     
     $usernameError = "";
     $passwordError = "";
@@ -63,7 +63,7 @@
     <body>
         <div class="register">
             <div class="register_bg">
-                <h2>CMet.</h2>
+                <h2>CMetRentalRooms</h2>
             </div>
             <div class="form">
                 <h3>Register</h3>
